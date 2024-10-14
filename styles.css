@@ -1,0 +1,84 @@
+body {
+    font-family: 'Georgia', serif; /* Use a more formal font */
+    margin: 0;
+    padding: 0;
+    background-image: url('judgment.jpg'); /* Background image for a parchment effect */
+    background-size: cover;
+    background-attachment: fixed; /* Fixed background effect */
+    color: #333; /* Text color */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    color: #f8f9fa; /* Light text color */
+    border-bottom: 3px solid #3f51b5; /* Bottom border */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-weight: bold; /* Bold links */
+}
+
+nav ul li a:hover {
+    color: #ff4081; /* Color change on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(165, 177, 181, 0.9); /* Slightly transparent white */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+h2 {
+    cursor: pointer;
+    color: #3f51b5;
+    border-bottom: 2px solid #3f51b5; /* Underline for headings */
+    padding-bottom: 5px;
+    transition: color 0.3s;
+}
+
+h2:hover {
+    color: #ff4081; /* Color change on hover */
+}
+
+.content {
+    display: none; /* Initially hide the content */
+    margin-top: 10px;
+    padding: 15px;
+    background: #f1f1f1; /* Light gray background */
+    border-left: 4px solid #3f51b5; /* Left border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    color: #f8f9fa;
+    border-top: 3px solid #3f51b5; /* Top border */
+}
+
+footer a {
+    color: #ff4081; /* Color for email link */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
